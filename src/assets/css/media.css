@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1190px) {
+  /* ABOUT PAGE  */
+  .About__section {
+    padding: 1rem 0;
+  }
+  .Functions--div {
+    margin: 3rem 0 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Home__text {
+    width: 100%;
+  }
+  .Budget--div {
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .Portal__title {
+    font-size: 30px;
+  }
+  .policy {
+    display: none;
+  }
+  .Privacy {
+    display: block;
+  }
+  .footer--div {
+    margin: 3rem auto;
+  }
+  .footer__div {
+    display: block;
+  }
+
+  /* ABOUT PAGE  */
+  .Functions {
+    margin-top: 12rem;
+    margin-bottom: -3rem;
+  }
+  .Functions--div {
+    margin: 0;
+  }
+  .Functions__div {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  /* Explore  */
+  .Interactive__div {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .navbar-nav {
+    flex-direction: row;
+    margin: 8% 0 5%;
+  }
+  .Nav__logo {
+    display: none;
+  }
+  .Nav__link {
+    padding: 25px 4px 18px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  html {
+    font-size: 50%;
+  }
+
+  /* ABOUT PAGE  */
+
+  .About__info {
+    width: 100%;
+  }
+  .About--team-div {
+    height: 100%;
+  }
+  .Functions {
+    margin-top: 20rem;
+    margin-bottom: 16rem;
+  }
+  /* EXPLORE */
+  .img-gallery {
+    width: 30%;
+  }
+  .Interactions {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .nav-item {
+    margin: 2.5rem 1rem;
+  }
+  .Portal__div {
+    max-width: 90%;
+  }
+  .Portal__title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .Portal__text {
+    font-size: 16px;
+    line-height: 5rem;
+  }
+  .Form__ {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .Form__input {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .Form__button {
+    padding: 1rem 1.8rem;
+  }
+  .Form__link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .Dataset--button {
+    display: block;
+    text-align: center;
+  }
+  .Dataset__link,
+  .Dataset__link:link,
+  .Dataset__link:hover {
+    font-size: 2rem;
+  }
+  .view-dataset {
+    display: block;
+  }
+
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  .footer__div {
+    text-align: center;
+  }
+  .About__div {
+    margin: 15% auto 6%;
+  }
+  /* CONTACT */
+
+  .Contact__div {
+    width: 90%;
+  }
+
+  /* Explore  */
+  .Interactive__div {
+    width: 95%;
+  }
+  .row {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .Interactions {
+    text-align: center;
+  }
+  .Interaction__title {
+    font-size: 2.4rem;
+  }
+  .Interaction__text {
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+  }
+  .img-gallery {
+    width: 100%;
+  }
+  .Interactions {
+    width: 100%;
+  }
+  .slice-text {
+    font-size: 2rem;
+  }
+}
