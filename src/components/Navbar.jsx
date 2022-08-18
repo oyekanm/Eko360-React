@@ -55,7 +55,7 @@ function Navbar() {
               <ul className="dropdown-menu dropdown-menu-light">
                 <li>
                   <NavLink
-                    to="/"
+                    to="/interactive"
                     className={({ isActive }) =>
                       isActive
                         ? "dropdown-item explore__link"
@@ -67,7 +67,7 @@ function Navbar() {
                 </li>
                 <li>
                   <NavLink
-                    to="/"
+                    to="/slice&dice"
                     className={({ isActive }) =>
                       isActive
                         ? "dropdown-item explore__link"
@@ -81,7 +81,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <NavLink
-                to="/"
+                to="/submit-dataset"
                 className={({ isActive }) =>
                   isActive ? "Nav__link Nav__link--active" : "Nav__link "
                 }
@@ -91,7 +91,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <NavLink
-                to="/"
+                to="/publications"
                 className={({ isActive }) =>
                   isActive ? "Nav__link Nav__link--active" : "Nav__link "
                 }
@@ -101,7 +101,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <NavLink
-                to="/"
+                to="/public-data"
                 className={({ isActive }) =>
                   isActive ? "Nav__link Nav__link--active" : "Nav__link "
                 }
@@ -111,7 +111,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <NavLink
-                to="/"
+                to="/about"
                 className={({ isActive }) =>
                   isActive ? "Nav__link Nav__link--active" : "Nav__link "
                 }
@@ -121,7 +121,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <NavLink
-                to="/"
+                to="/faqs"
                 className={({ isActive }) =>
                   isActive ? "Nav__link Nav__link--active" : "Nav__link "
                 }

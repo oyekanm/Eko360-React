@@ -9,6 +9,27 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.Error {
+  padding-top: 15%;
+  height: 65vh;
+}
+.Error__title {
+  font-size: 4rem;
+}
+.Error__text {
+  font-size: 3rem;
+}
+.Error__link,
+.Error__link:link,
+.Error__link:visited,
+.Error__link:active,
+.Error__link:hover {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #333333;
+  text-decoration: none;
+}
 .navbar-toggler {
   background-color: rgba(11, 158, 169, 1);
 }
@@ -37,7 +58,7 @@ body {
   line-height: 20px;
   color: #333333;
   text-decoration: none;
-  padding: 25px 6px 19px;
+  padding: 25px 6px 17px;
   transition: all 0.3s;
 }
 .Nav__link:hover {
@@ -83,6 +104,9 @@ body {
 .explore__link:hover {
   background: #fee3cc;
 }
+.explore__link:hover .nav__link:hover {
+  border-bottom: 5px solid rgba(248, 117, 2, 1);
+}
 .Portal--bg {
   background: url(../img/lekki-ikoyi-bridge.png);
   height: 52.9rem;
@@ -91,11 +115,25 @@ body {
   background-repeat: no-repeat;
   text-align: center;
 }
+@keyframes moveup {
+  0% {
+    opacity: 0.2;
+    transform: translateY(150px);
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .Portal__div {
   width: 91rem;
   max-width: 70%;
   padding: 14rem 0;
   margin: 0 auto;
+  animation: moveup 2s ease-in;
 }
 .Portal__title {
   font-weight: 700;
