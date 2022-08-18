@@ -14,6 +14,7 @@ import Interactive from "./Pages/Interactive";
 import SliceDice from "./Pages/SliceDice";
 import Public from "./Pages/Public";
 import ProductShared from "./Pages/ProductShared";
+import DatasetsPage from "./Pages/Datasetspage";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           <Route path="publications" element={<Publications />} />
           <Route path="public-data" element={<ProductShared />}>
             <Route index element={<PublicData />} />
-            <Route path=":id" element={<Public />} />
+            <Route path=":productId" element={<Public />} />
           </Route>
           <Route path="/about" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
@@ -35,6 +36,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/interactive" element={<Interactive />} />
           <Route path="/slice&dice" element={<SliceDice />} />
+          <Route path="/datasetspage" element={<DatasetsPage />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>

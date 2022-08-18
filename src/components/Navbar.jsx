@@ -2,24 +2,24 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light">
-      <div class="container">
-        <NavLink to="/" class="navbar-brand">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-light">
+      <div className="container">
+        <NavLink to="/" className="navbar-brand">
           <div>
             <img
               src={require("../assets/img/Lagos-logo.png")}
               alt="Lagos-logo"
-              class="Nav__logo"
+              className="Nav__logo"
             />
             <img
               src={require("../assets/img/Eko360.png")}
               alt="Eko360"
-              class="Nav__img"
+              className="Nav__img"
             />
           </div>
         </NavLink>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -27,11 +27,11 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon "></span>
+          <span className="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse nav-flex" id="navbarNav">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse nav-flex" id="navbarNav">
+          <ul className="navbar-nav ">
+            <li className="nav-item">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -79,7 +79,7 @@ function Navbar() {
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="/submit-dataset"
                 className={({ isActive }) =>
@@ -89,7 +89,7 @@ function Navbar() {
                 Submit Dataset
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="/publications"
                 className={({ isActive }) =>
@@ -99,7 +99,7 @@ function Navbar() {
                 Publications
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="/public-data"
                 className={({ isActive }) =>
@@ -109,7 +109,7 @@ function Navbar() {
                 Public Data
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
@@ -119,7 +119,7 @@ function Navbar() {
                 About
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="/faqs"
                 className={({ isActive }) =>

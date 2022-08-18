@@ -1,6 +1,7 @@
 import React from "react";
 
 function Faqs() {
+  // <strong>(Home &gt; Explore &gt; Slice and Dice).</strong>
   return (
     <section>
       <div className="container">
@@ -309,7 +310,7 @@ function Faqs() {
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div className="accordion-item">
               <h2 className="accordion-header" id="headingEleven">
                 <button
                   className="accordion-button collapsed"
@@ -340,22 +341,24 @@ function Faqs() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingEleven">
+              <h2 className="accordion-header" id="headingTwelve">
                 <button
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseEleven"
+                  data-bs-target="#collapseTwelve"
                   aria-expanded="false"
-                  aria-controls="collapseEleven"
+                  aria-controls="collapseTwelve"
                 >
-                  <p className="Privacy__title">How are suggestions treated?</p>
+                  <p className="Privacy__title">
+                    How are suggestions treated?​
+                  </p>
                 </button>
               </h2>
               <div
-                id="collapseEleven"
+                id="collapseTwelve"
                 className="accordion-collapse collapse"
-                aria-labelledby="headingEleven"
+                aria-labelledby="headingTwelve"
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
@@ -368,14 +371,14 @@ function Faqs() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingEleven">
+              <h2 className="accordion-header" id="headingThirteen">
                 <button
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseEleven"
+                  data-bs-target="#collapseThirteen"
                   aria-expanded="false"
-                  aria-controls="collapseEleven"
+                  aria-controls="collapseThirteen"
                 >
                   <p className="Privacy__title">
                     How do I give suggestions/comments?
@@ -383,9 +386,9 @@ function Faqs() {
                 </button>
               </h2>
               <div
-                id="collapseEleven"
+                id="collapseThirteen"
                 className="accordion-collapse collapse"
-                aria-labelledby="headingEleven"
+                aria-labelledby="headingThirteen"
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
@@ -397,22 +400,22 @@ function Faqs() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingEleven">
+              <h2 className="accordion-header" id="headingFourteen">
                 <button
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseEleven"
+                  data-bs-target="#collapseFourteen"
                   aria-expanded="false"
-                  aria-controls="collapseEleven"
+                  aria-controls="collapseFourteen"
                 >
-                  <p className="Privacy__title"> How do I download data?</p>
+                  <p className="Privacy__title">How do I download data?</p>
                 </button>
               </h2>
               <div
-                id="collapseEleven"
-                className="accordion-collapse collapsed"
-                aria-labelledby="headingEleven"
+                id="collapseFourteen"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingFourteen"
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
@@ -424,14 +427,14 @@ function Faqs() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingEleven">
+              <h2 className="accordion-header" id="headingFifteen">
                 <button
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseEleven"
+                  data-bs-target="#collapseFifteen"
                   aria-expanded="false"
-                  aria-controls="collapseEleven"
+                  aria-controls="collapseFifteen"
                 >
                   <p className="Privacy__title">
                     How do I create a table builder (Slice and Dice)?
@@ -439,15 +442,15 @@ function Faqs() {
                 </button>
               </h2>
               <div
-                id="collapseEleven"
+                id="collapseFifteen"
                 className="accordion-collapse collapse"
-                aria-labelledby="headingEleven"
+                aria-labelledby="headingFifteen"
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
                   <p className="Privacy__text">
                     Navigate to interactivity on the home page{" "}
-                    <strong>(Home &gt; Explore &gt; Slice and Dice).</strong>{" "}
+                    <strong>(Home &gt; Explore &gt; Slice and Dice)</strong> .
                     Click on Slice and Dice. An interactive page will be
                     displayed to click on any preferred indicators for your
                     report. Using the print button, you can download the report

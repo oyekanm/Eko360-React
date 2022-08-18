@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -212,9 +213,9 @@ function Home() {
               </div>
             </div>
             <div className="view-dataset">
-              <a href="#" className="view-link">
+              <Link to="/datasetspage" className="view-link">
                 View all datasets
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -320,9 +321,9 @@ function Home() {
               </div>
             </div>
             <div className="view-dataset">
-              <a href="#" className="view-link">
+              <Link to="/interactive" className="view-link">
                 View all analysis
-              </a>
+              </Link>
             </div>
           </div>
         </div>

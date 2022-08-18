@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Data from "../Data";
 
 function PublicData() {
-  const [product, setProduct] = useState(Data);
+  console.log(Data);
+
   return (
     <section>
       <div className="container">
@@ -16,30 +17,29 @@ function PublicData() {
         <div className="container ">
           <div className="row">
             <div className="col-lg-1 col-md-1  "></div>
-            <div className="col-lg-3 col-md-3 col-sm-6 Public__div">
-              {product.map((item) => {
-                const { name, text, id } = item;
-                return (
-                  <>
+            {Data.map((item) => {
+              const { name, text, id } = item;
+              return (
+                <div
+                  key={id}
+                  className="col-lg-3 col-md-3 col-sm-6 Public__div"
+                >
+                  <Link to={`/public-data/${id}`} className="Public__link">
                     <div className="Public--data">
-                      <Link to={`/public-data/${id}`}>
-                        <img
-                          src={require("../assets/img/bar-chart.svg").default}
-                          alt=" "
-                          className="Public__img"
-                        />
-                      </Link>
+                      <img
+                        src={require("../assets/img/bar-chart.svg").default}
+                        alt=" "
+                        className="Public__img"
+                      />
                     </div>
                     <div className="Public--paragraphs">
-                      <Link to={`/public-data/${id}`} className="Public__link">
-                        <div className="Public__title">{name}</div>
-                        <div className="Public__text">{text}</div>
-                      </Link>
+                      <div className="Public__title">{name}</div>
+                      <div className="Public__text">{text}</div>
                     </div>
-                  </>
-                );
-              })}
-            </div>
+                  </Link>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
