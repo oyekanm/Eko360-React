@@ -29,14 +29,14 @@ function App() {
             <Route index element={<PublicData />} />
             <Route path=":productId" element={<Public />} />
           </Route>
-          <Route path="/about" element={<About />} />
-          <Route path="/faqs" element={<Faqs />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/web-resources" element={<WebResources />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/interactive" element={<Interactive />} />
-          <Route path="/slice&dice" element={<SliceDice />} />
-          <Route path="/datasetspage" element={<DatasetsPage />} />
+          <Route path="about" element={<About />} />
+          <Route path="faqs" element={<Faqs />} />
+          <Route path="privacy" element={<Privacy />} />
+          <Route path="web-resources" element={<WebResources />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="interactive" element={<Interactive />} />
+          <Route path="slice&dice" element={<SliceDice />} />
+          <Route path="datasetspage" element={<DatasetsPage />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
