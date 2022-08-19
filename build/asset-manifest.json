@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48bbe0b5.css",
+    "main.js": "/static/js/main.4d8cd3ec.js",
+    "static/media/Rectangle 826.png": "/static/media/Rectangle 826.08ddded3fe45d3d211f7.png",
+    "static/media/lekki-ikoyi-bridge.png": "/static/media/lekki-ikoyi-bridge.d916ee1c466f9bb1a2a6.png",
+    "static/media/img2 1.png": "/static/media/img2 1.334629202d038c9b3214.png",
+    "static/media/img1 1.png": "/static/media/img1 1.bd14e440547f616f2871.png",
+    "static/media/img3 1.png": "/static/media/img3 1.3007c171ccd38621e84a.png",
+    "static/media/Group 7443.png": "/static/media/Group 7443.5335eaa0232815d6e126.png",
+    "static/media/captbg.jpeg": "/static/media/captbg.1d7b2f32f2b31c260f65.jpeg",
+    "static/media/farm.png": "/static/media/farm.ae3b4ef81386c052a76f.png",
+    "static/media/Rectangle 17.png": "/static/media/Rectangle 17.c7618b4541c9e089355f.png",
+    "static/media/Rectangle 18.png": "/static/media/Rectangle 18.8b942908a2c301f53dd7.png",
+    "static/media/corevmbg.png": "/static/media/corevmbg.8be4a093e3b661dc298b.png",
+    "static/media/Rectangle 19.png": "/static/media/Rectangle 19.e26ca65992dcf92045be.png",
+    "static/media/Rectangle 15.png": "/static/media/Rectangle 15.14fc82e26abc215ad648.png",
+    "static/media/Group 7147.png": "/static/media/Group 7147.c1345a1dac5e445cdc44.png",
+    "static/media/Dataset.png": "/static/media/Dataset.4a89a57f44fb2deca091.png",
+    "static/media/Rectangle 16.png": "/static/media/Rectangle 16.de117e045205b88b1f17.png",
+    "static/media/Group 7148.png": "/static/media/Group 7148.dca112959f0f2b4b6782.png",
+    "static/media/Group 104.png": "/static/media/Group 104.304181ea1a674bd13614.png",
+    "static/media/aboutbg.png": "/static/media/aboutbg.ec707d22c59b8f1c9ce0.png",
+    "static/media/Group 7150.png": "/static/media/Group 7150.6e3ae63c24d9e9793545.png",
+    "static/media/Group 7151.png": "/static/media/Group 7151.8f74cf0c4f4beae22f70.png",
+    "static/media/budgetbg.png": "/static/media/budgetbg.562f1f07a136acd8709d.png",
+    "static/media/Group 7149.png": "/static/media/Group 7149.02ac73b97fa06e5570e6.png",
+    "static/media/abg.png": "/static/media/abg.564b40f27f529e4359a0.png",
+    "static/media/chartsbg.png": "/static/media/chartsbg.2783737349ca53b4722f.png",
+    "static/media/activebg.png": "/static/media/activebg.ff7870ee0e222c2a9a6b.png",
+    "static/media/gallery.svg": "/static/media/gallery.ecb6c0bc1a4569689981.svg",
+    "static/media/bar-chart.svg": "/static/media/bar-chart.d55f1eebd90e860d67f30d0d94e2973e.svg",
+    "index.html": "/index.html",
+    "main.48bbe0b5.css.map": "/static/css/main.48bbe0b5.css.map",
+    "main.4d8cd3ec.js.map": "/static/js/main.4d8cd3ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48bbe0b5.css",
+    "static/js/main.4d8cd3ec.js"
+  ]
+}
